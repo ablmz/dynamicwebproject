@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/5/58/Padlock-olive.svg" type="image/x-ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+        <style>
+            input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            }
+
+            input[type=submit] {
+            background-color:#102d5c ;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+            background-color: #45a049;
+            }
+
+        .kontaktform {
+        border-radius: 5px;
+        background-color: #e6f2ff;
+        margin-bottom: 20px;
+        margin-top:0px;
+        margin-left: 40px;
+        }
+        
+        .kontaktadresse{
+        background-color:white;
+        margin-left: 40px;
+        }
+</style>
+
+    </head>
+    <body>
+        
+        <div class="header">
+            <img class="logo" src="img/logo.png" alt="">
+            <a href="index.html" class="logo">Horizont Web-Entwicklungswelt
+            </a>
+         
+        </div>
+
+        <div class="row">
+            <div class="column-s">
+                <div class="sidebar">
+                    <ul  class="">
+                        <li>
+                            <a class="active" href="index.html">Home</a>  
+
+                        </li>
+                        <li>
+                            <a href="ueberuns.html">Über Uns</a>
+
+                        </li>
+                        <li>
+                            <a href="leistungen.html">Leistungen</a>
+
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+
+                        </li>
+                        <li>
+                            <a href="referenzen.html">Referenzen</a>
+
+                        </li>
+                        <li>
+                            <a href="kontakt.html">Kontakt</a>
+
+                        </li>
+                    </ul>
+                    
+                    <div class="kontaktadresse">
+                        <h3>Horizont <br>Programmierung & IT-Lösungen</h3>
+                <address>
+                    E-Mail Uns <a href="mailto:info@horizontwebentwicklung.com">@Horizont Web</a>.<br>
+                    Besuchen Sie uns at: <a href="https://www.horizontwebentwicklung.com">Horizont Web Seite</a><br>
+                    Telefon: +49 - 511 - 000 000 0<br>
+                    Fax: +49 - 511 - 000 000 <br>
+                    Bismarckstraße 2, 30173 Hannover
+                    </address>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column-l">
+                <h2 class="kontaktform">Kontaktformular</h2>
+                        
+                <div class="kontaktform">
+                    <form>
+                        <label for="fname">Vorname</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Ihr Name..">
+                        <label for="lname">Nachname</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Ihr Nachname..">
+                        <label for="country">Land</label>
+                        <input type="text" id="country" name="country" placeholder="Ihr Land...">
+                        <label for="subject">Thema</label>
+                        <textarea id="subject" name="subject" placeholder="Schreiben Sie.." style="height:50px"></textarea>
+
+                        <input type="submit" value="Einsenden">
+                    </form>
+            </div>
+            </div>
+        </div>
+
+        
+        <div class="footer shadow-top flex-container" style="position: absolute; bottom: 0px;"> Copyright &copy; 2020 - <a  href="index.html">Horizont Webentwicklungswelt</a>
+        </div>
+    </body>
+</html>
